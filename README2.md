@@ -15,7 +15,8 @@
 
 **그라파나 대시보드**
 
-<img width="661" height="271" alt="Screenshot 2025-11-18 at 22 43 11" src="https://github.com/user-attachments/assets/03631112-82bb-4991-8a06-da43d0274edd" />
+<img width="779" height="402" alt="Screenshot 2025-11-23 at 22 31 52" src="https://github.com/user-attachments/assets/f2a0c369-b91d-4a18-b9a4-d3720e17bc20" />
+
 
 **핀포인트**
 
