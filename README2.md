@@ -15,22 +15,25 @@
 
 **그라파나 대시보드**
 
+<img width="661" height="271" alt="Screenshot 2025-11-18 at 22 43 11" src="https://github.com/user-attachments/assets/03631112-82bb-4991-8a06-da43d0274edd" />
+
 **핀포인트**
 
+<img width="769" height="399" alt="Screenshot 2025-11-23 at 22 32 31" src="https://github.com/user-attachments/assets/aa21d31f-3915-4b16-92ea-858016c082a0" />
 
 이런 모니터링 툴이 작동하려면 시스템의 다양한 지표들을 각각의 모니터링 툴에 맞도록 만들어서 보내주어야 한다. (실제로는 라이브러리등을 통해서 자동화 되는 경우가 많다.)
 
-
 **모니터링 툴에 지표 전달**
 
+<img width="770" height="266" alt="Screenshot 2025-11-23 at 22 33 41" src="https://github.com/user-attachments/assets/68c28049-7317-4185-9c26-86a31227d539" />
 
 **모니터링 툴 변경**
 
+<img width="774" height="347" alt="Screenshot 2025-11-23 at 22 34 22" src="https://github.com/user-attachments/assets/6c98cd14-9e19-42aa-b377-64594747f988" />
 
 예를 들어서 CPU, JVM, 커넥션 정보 등을 JMX 툴에 전달한다고 가정해보자. 
 
 그러면 각각의 정보를 JMX 모니터링 툴 이 정한 포멧에 맞추어 측정하고 전달해야 한다.
-
 
 그런데 중간에 사용하는 모니터링 툴을 변경하면 어떻게 될까?
 
@@ -42,13 +45,11 @@
 
 **마이크로미터 추상화**
 
-
+<img width="779" height="448" alt="Screenshot 2025-11-23 at 22 34 58" src="https://github.com/user-attachments/assets/3ad16666-53b0-4282-97a3-69e984448650" />
 
 **마이크로미터 전체 그림**
 
-
-
-
+<img width="769" height="243" alt="Screenshot 2025-11-23 at 22 35 15" src="https://github.com/user-attachments/assets/c9ec346a-3833-48ed-b662-5aaedcbf6b35" />
 
 마이크로미터는 애플리케이션 메트릭 파사드라고 불리는데, 애플리케이션의 메트릭(측정 지표)을 마이크로 미터가 정한 표준 방법으로 모아서 제공해준다.
 
