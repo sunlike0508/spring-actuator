@@ -457,7 +457,7 @@ http://localhost:8080/actuator/metrics/tomcat.threads.config.max
 
 수 많은 그래프를 제공하고, 프로메테우스를 포함한 다양한 데이터소스를 지원한다.
 
-
+<img width="785" height="275" alt="Screenshot 2025-11-25 at 23 28 26" src="https://github.com/user-attachments/assets/77748ece-e5ae-4f1a-811a-352345cd10ae" />
 
 1. 스프링 부트 액츄에이터와 마이크로미터를 사용하면 수 많은 메트릭을 자동으로 생성한다. 마이크로미터 프로메테우스 구현체는 프로메테우스가 읽을 수 있는 포멧으로 메트릭을 생성한다.
 2. 프로메테우스는 이렇게 만들어진 메트릭을 지속해서 수집한다.
@@ -467,6 +467,7 @@ http://localhost:8080/actuator/metrics/tomcat.threads.config.max
 
 **프로메테우스 아키텍처**
 
+<img width="672" height="405" alt="Screenshot 2025-11-25 at 23 29 22" src="https://github.com/user-attachments/assets/f8001330-0960-4c39-81c1-423783cd81de" />
 
 https://prometheus.io/docs/introduction/overview/
 
